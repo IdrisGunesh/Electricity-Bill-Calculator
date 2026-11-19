@@ -29,5 +29,14 @@ int main() {
     else
         cout << "Thank you for your payment." << endl;
 
-    return 0;
+        cout << "\nElectricity Usage Category: ";
+
+    if (units <= 100)
+        cout << "Low Consumption" << endl;
+    else if (units <= 300)
+        cout << "Medium Consumption" << endl;
+    else
+        cout << "High Consumption" << endl;
+    
+        return 0;
 }
